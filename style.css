@@ -914,6 +914,47 @@ frame-3-img-left img {
   flex-grow: 0;
 }
 
+.column-head {
+  width: 63px;
+  height: 24px;
+
+  font-family: "Dot Matrix";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100%;
+  /* identical to box height, or 24px */
+
+  color: #000000;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.column-item {
+  height: 20px;
+
+  font-family: "Inconsolata";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  /* identical to box height, or 20px */
+
+  text-transform: uppercase;
+
+  color: #000000;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
 .frame-6-right {
   display: flex;
   flex-direction: column;
