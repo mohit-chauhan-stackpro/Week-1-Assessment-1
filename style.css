@@ -520,3 +520,159 @@ frame-3-img-left img {
 
   background: #ffffff;
 }
+.frame-4-left {
+  position: absolute;
+  width: 394.1px;
+  height: 433.85px;
+  left: 34px;
+  top: 133px;
+}
+
+.frame-4-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 40px;
+
+  position: absolute;
+  width: 433px;
+  height: 256px;
+  left: 504px;
+  top: 222px;
+}
+.frame-4-center-upper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+
+  width: 433px;
+  height: 162px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+#frame-4-p-lower {
+  width: 278px;
+  height: 72px;
+
+  font-family: "Dot Matrix";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 100%;
+  /* or 36px */
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #000000;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+#frame-4-p-upper {
+  width: 433px;
+  height: 66px;
+
+  font-family: "Inconsolata";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 100%;
+  /* or 22px */
+
+  text-align: center;
+
+  color: #000000;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+#frame-4-right-img {
+  position: absolute;
+  width: 359.2px;
+  height: 300.09px;
+  left: 1008.1px;
+  top: 200px;
+}
+
+.frame-5 {
+  position: absolute;
+  width: 1440px;
+  height: 755px;
+  left: 0px;
+  top: 2755px;
+  background: #eaedea;
+}
+#frame-5-left-img {
+  position: absolute;
+  width: 1019px;
+  height: 644px;
+  left: 3px;
+  top: 111px;
+}
+.frame-5-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 12px;
+
+  position: absolute;
+  width: 357px;
+  height: 136px;
+  left: 1022px;
+  top: 279px;
+}
+#frame-5-p-upper {
+  width: 152px;
+  height: 36px;
+
+  font-family: "Dot Matrix";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 100%;
+  /* identical to box height, or 36px */
+
+  color: #000000;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+#frame-5-p-lower {
+  width: 357px;
+  height: 88px;
+
+  font-family: "Inconsolata";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 100%;
+  /* or 22px */
+
+  color: #000000;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
