@@ -181,6 +181,142 @@
   order: 0;
   flex-grow: 0;
 }
+
+#frame-1-left {
+  position: absolute;
+  width: 302px;
+  height: 36px;
+  left: 193px;
+  top: 239px;
+
+  font-family: "Dot Matrix";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 100%;
+  /* identical to box height, or 36px */
+
+  letter-spacing: 0.04em;
+
+  color: #ffffff;
+}
+
+#frame-1-center {
+  position: absolute;
+  width: 282.13px;
+  height: 564.85px;
+  left: 579px;
+  top: 239px;
+}
+
+.frame-1-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 30px;
+
+  position: absolute;
+  width: 374px;
+  height: 288px;
+  left: 961px;
+  top: 410px;
+}
+#frame-1-right-p-1 {
+  width: 374px;
+  height: 72px;
+
+  font-family: "Dot Matrix";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 100%;
+  /* or 36px */
+
+  letter-spacing: 0.04em;
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+#frame-1-right-p-2 {
+  width: 289px;
+  height: 36px;
+
+  font-family: "Inconsolata";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 100%;
+  /* or 22px */
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+#frame-1-right-p-3 {
+  width: 373px;
+  height: 44px;
+
+  font-family: "Inconsolata";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 100%;
+  /* or 22px */
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+#frame-1-right-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 20px 12px 18px;
+  gap: 10px;
+
+  width: 138px;
+  height: 46px;
+
+  background: #ffffff;
+  border-radius: 5px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+
+#frame-1-right-bottom-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+
+  position: absolute;
+  width: 419px;
+  height: 22px;
+  left: 961px;
+  top: 894px;
+}
+
 .frame-2 {
   display: flex;
   flex-direction: row;
