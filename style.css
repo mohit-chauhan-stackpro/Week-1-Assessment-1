@@ -1,0 +1,346 @@
+@import url("http://fonts.cdnfonts.com/css/dot-matrix");
+* {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  position: relative;
+  width: 1440px;
+  height: 3905px;
+  background-color: black;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 60px 8px;
+  gap: 925px;
+  width: 1439.65px;
+  position: absolute;
+  height: 68px;
+  left: 0.18px;
+  right: 0.18px;
+  top: 0px;
+  font-family: "Dot Matrix", sans-serif;
+}
+.brand {
+  height: 16px;
+  width: 82.64543914794922px;
+  left: 60px;
+  top: 30px;
+  border-radius: 0px;
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+#brand-name {
+  height: 16px;
+  width: 82.64543914794922px;
+  font-family: "Dot Matrix", sans-serif;
+  border-radius: 0px;
+  color: #ffffff;
+  position: absolute;
+}
+.nav-links {
+  left: 1067.6455078125px;
+  top: 16px;
+  border-radius: 0px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 12px;
+
+  width: 312px;
+  height: 44px;
+  color: #ffffff;
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+#item-1-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 16px;
+
+  width: 112px;
+  height: 44px;
+
+  border-radius: 5px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+#item-1 {
+  width: 80px;
+  height: 20px;
+
+  font-family: "Dot Matrix";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  /* identical to box height, or 20px */
+
+  letter-spacing: 0.04em;
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+#item-2-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 16px;
+
+  width: 90px;
+  height: 44px;
+
+  border-radius: 5px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+#item-2 {
+  width: 58px;
+  height: 20px;
+
+  font-family: "Dot Matrix";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  /* identical to box height, or 20px */
+
+  letter-spacing: 0.04em;
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+#item-3-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 16px;
+
+  width: 86px;
+  height: 44px;
+
+  border-radius: 5px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+#item-3 {
+  width: 54px;
+  height: 20px;
+
+  font-family: "Dot Matrix";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  /* identical to box height, or 20px */
+
+  letter-spacing: 0.04em;
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.frame-2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 56px 60px;
+  gap: 64px;
+
+  position: absolute;
+  width: 1437px;
+  height: 230px;
+  left: 0px;
+  top: 1067.85px;
+
+  background: #ffffff;
+}
+.frame-2-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+
+  width: 396.33px;
+  height: 118px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
+.frame-2-1 img {
+  width: 240px;
+  height: 54px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.frame-2-1 p {
+  width: 396.33px;
+  height: 40px;
+
+  font-family: "Inconsolata";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  /* or 20px */
+
+  text-align: center;
+  letter-spacing: 0.04em;
+
+  color: #000000;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.frame-2-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+
+  width: 396.33px;
+  height: 118px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+}
+.frame-2-2 img {
+  width: 88px;
+  height: 54px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.frame-2-2 p {
+  width: 396.33px;
+  height: 40px;
+
+  font-family: "Inconsolata";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  /* or 20px */
+
+  text-align: center;
+  letter-spacing: 0.04em;
+
+  color: #000000;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.frame-2-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+
+  width: 396.33px;
+  height: 98px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 1;
+}
+.frame-2-3 img {
+  width: 100.15px;
+  height: 54px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.frame-2-3 p {
+  width: 396.33px;
+  height: 20px;
+
+  font-family: "Inconsolata";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  /* identical to box height, or 20px */
+
+  text-align: center;
+  letter-spacing: 0.04em;
+
+  color: #000000;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
